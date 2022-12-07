@@ -1,0 +1,11 @@
+<div id="overlay" (click)="generalService.showDialog=false"></div>
+
+<div id="container">
+    
+    <div id="header">Please confirm!</div>
+    <div id="content"> Do you really want to send this file?</div>
+    <div id="actions">
+        <button class="cancel" (click)="generalService.showDialog=false">No</button>
+        <button>Yes</button>
+    </div>
+</div>
